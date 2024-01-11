@@ -2,6 +2,7 @@
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
+  font-family: Roboto;
 }
 
 /*Start*/
@@ -38,7 +39,7 @@
 
 }
 
-
+/*Main-section*/
 
 .main-section {
   width: 50%;
@@ -54,6 +55,7 @@
 .container-a h1{
   font-size: 50px;
   color: #0F2656;
+  letter-spacing: 2px;
 }
 
 .container-a h1:nth-child(2){
@@ -63,6 +65,10 @@
 .container-a p{
   margin: 20px 0;
   color: #ADC0C8;
+  font-weight: 300;
+  color: #0F2656;
+  font-size: 12px;
+  letter-spacing: 1px;
 }
 
 .container-b {
@@ -81,6 +87,10 @@
 
 .left p{
   color: #0F2656;
+  line-height: 25px;
+  font-size: 12px;
+  font-weight: 300;
+
 }
 
 .right {
@@ -94,7 +104,7 @@
   color: #0F2656;
 }
 
-
+/*Serivce-section*/
 
 .service {
   width:65%;
@@ -127,6 +137,7 @@
 .service-content{
   width: 90%;
   margin: 0 auto;
+  padding-bottom: 35px;
 }
 
 
@@ -135,6 +146,14 @@
   margin-bottom: 10px;
 }
 
+.service-container p{
+  color: #0F2656;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+/*Footer-section*/
 
 .footer{
   background-color: #008AFF;
@@ -149,3 +168,6 @@
   font-weight: bold;
   color: white;
 }
+
+
+/*End*/
