@@ -34,9 +34,15 @@
 .nav-content li{
  display: flex;
  justify-content: space-between;
- margin-top: 15px;
+
  color:#394C73 ;
 
+}
+
+.nav-content li ul{
+  font-size: 16px;
+  margin-top: 15px;
+  font-weight: 300;
 }
 
 /*Main-section*/
