@@ -21,7 +21,7 @@
   width: 8%;
 }
 
-.logo img{
+.logo a img{
   width: 100%;
 }
 
@@ -35,15 +35,17 @@
  display: flex;
  justify-content: space-between;
  margin-top: 20px;
- color:#394C73 ;
+
 
 }
 
-.nav-content li ul{
+.nav-content li ul a{
+  text-decoration: none;
   font-size: 16px;
-
+  color:#394C73;
   font-weight: 300;
 }
+
 
 /*Main-section*/
 
