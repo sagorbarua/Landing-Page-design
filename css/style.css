@@ -46,9 +46,10 @@ header{
   list-style-type: none;
 }
 .menu li a{
+  font-size: 16px;
   text-decoration: none;
   color: #0F2656; 
-  font-size: 16px;
+
 }
 .menu li a:hover{
   color: #F15767;
@@ -188,12 +189,12 @@ header{
   padding-top: 10px;
 }
 .service-container p{
-  color: #0F2656;
   font-weight: 400;
   font-family: sans-serif;
   font-size: 16px;
   line-height: 25px;
   margin-top: 15px;
+  color: #0F2656;
 }
 
 /* service-section-end */
@@ -215,14 +216,14 @@ header{
 }
 
 .footer p{
-  color: #60C1FF;
   font-size: 16px;
   font-weight: 400;
+  color: #60C1FF;
 }
 .footer a{
+  font-size: 18px;
   font-weight: 700;
   color: white;
-  font-size: 18px;
   text-decoration: none;
 
 }
